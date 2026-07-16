@@ -9,7 +9,7 @@
           "git-hooks"
         ],
         "nixpkgs": [
-          "nixpkgs-2605"
+          "nixpkgs"
         ]
       },
       "locked": {
@@ -29,7 +29,7 @@
     "devshell": {
       "inputs": {
         "nixpkgs": [
-          "nixpkgs-2605"
+          "nixpkgs"
         ]
       },
       "locked": {
@@ -85,7 +85,7 @@
         "flake-compat": "flake-compat",
         "gitignore": "gitignore",
         "nixpkgs": [
-          "nixpkgs-2605"
+          "nixpkgs"
         ]
       },
       "locked": {
@@ -216,7 +216,7 @@
     "treefmt-nix": {
       "inputs": {
         "nixpkgs": [
-          "nixpkgs-2605"
+          "nixpkgs"
         ]
       },
       "locked": {
