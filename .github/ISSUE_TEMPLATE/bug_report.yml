@@ -1,0 +1,33 @@
+name: Bug report
+description: Something doesn't work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Security issue? Don't file it here; email security@qezta.com instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. nix develop
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v0.3.0 or a commit SHA
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Nix version (`nix --version`), browser if relevant.
