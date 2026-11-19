@@ -23,7 +23,6 @@ No shell is ever granted: it's a sandboxed [Bubble Tea](https://github.com/charm
 | --- | --- | --- |
 | [**divit**](https://github.com/Qezta/divit) | [divit.qezta.com](https://divit.qezta.com): portfolio with a Gemini-powered RAG chatbot and an in-browser terminal | SvelteKit · TypeScript |
 | [**site**](https://github.com/Qezta/site) | [qezta.com](https://qezta.com): the Qezta marketing site (under development) | SvelteKit · TypeScript |
-| [**qezta-website**](https://github.com/Qezta/qezta-website) | Development base shared by the personal and company sites | SvelteKit · Vite · Nix |
 | [**ui**](https://github.com/Qezta/ui) | Shared Svelte component library and design system for every Qezta front end | Svelte · SCSS |
 | [**ssh**](https://github.com/Qezta/ssh) | The SSH terminal portfolio above | Go · wish · Bubble Tea |
 | [**infra**](https://github.com/Qezta/infra) | Everything in this org as code: repositories, teams, rulesets, DNS | Nix · Terranix · OpenTofu |
