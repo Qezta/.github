@@ -45,4 +45,12 @@ flowchart LR
 
 ## Get in touch
 
-Open an issue on the relevant repository, or find Divit via [divit.qezta.com](https://divit.qezta.com).
+For general enquiries, email [hello@qezta.com](mailto:hello@qezta.com)
+(`hi@qezta.com` is an alias). Contact Divit at
+[divit@qezta.com](mailto:divit@qezta.com).
+
+- Security reports: [security@qezta.com](mailto:security@qezta.com)
+- Privacy requests: [privacy@qezta.com](mailto:privacy@qezta.com)
+- Legal notices: [legal@qezta.com](mailto:legal@qezta.com)
+
+You can also open an issue on the relevant repository.
