@@ -22,6 +22,10 @@ _: {
           "with" = {
             token = "\${{ secrets.METRICS_TOKEN }}";
             committer_token = "\${{ secrets.GITHUB_TOKEN }}";
+            ## main's ruleset requires pull requests, so the bot commits the
+            ## SVG to an unprotected branch instead. Embed it from
+            ## raw.githubusercontent.com/Qezta/.github/metrics/github-metrics.svg
+            committer_branch = "metrics";
 
             user = "Qezta";
             template = "classic";

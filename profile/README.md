@@ -6,6 +6,7 @@
 <a href="https://qezta.com"><img alt="qezta.com" src="https://img.shields.io/badge/qezta.com-ff0052?style=flat-square" /></a>
 <a href="https://divit.qezta.com"><img alt="divit.qezta.com" src="https://img.shields.io/badge/divit.qezta.com-667eea?style=flat-square" /></a>
 </p>
+<img alt="Qezta GitHub metrics" src="https://raw.githubusercontent.com/Qezta/.github/metrics/github-metrics.svg" />
 </div>
 
 ## Try it from your terminal
