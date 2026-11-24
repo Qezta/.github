@@ -1,6 +1,8 @@
-{...}: {
-  # Requires the repo secret METRICS_TOKEN to be set to a Personal Access
-  # Token (classic) with scopes: public_repo, read:user, read:org. The
+_: {
+  # Managed by Qezta/infra (terranix/qezta-actions-environments.nix):
+  # production/METRICS_TOKEN comes from Qezta/secrets forge/github/metrics.age,
+  # a Personal Access Token (classic) with scopes: public_repo, read:user,
+  # read:org. Don't set it by hand. The
   # default ${{ secrets.GITHUB_TOKEN }} authenticates as github-actions[bot]
   # and is rejected by the GraphQL queries lowlighter/metrics raises
   # ("Bad credentials" 401). See: https://github.com/lowlighter/metrics#-using-the-github-action-on-githubcom
@@ -19,6 +21,11 @@
           uses = "lowlighter/metrics@latest";
           "with" = {
             token = "\${{ secrets.METRICS_TOKEN }}";
+            committer_token = "\${{ secrets.GITHUB_TOKEN }}";
+            ## main's ruleset requires pull requests, so the bot commits the
+            ## SVG to an unprotected branch instead. Embed it from
+            ## raw.githubusercontent.com/Qezta/.github/metrics/github-metrics.svg
+            committer_branch = "metrics";
 
             user = "Qezta";
             template = "classic";
