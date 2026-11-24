@@ -38,7 +38,9 @@ _: {
             config_twemoji = "yes";
 
             ## Isocalendar
-            plugin_isocalendar = "yes";
+            ## Isocalendar reads a user's contribution calendar; for an org
+            ## it renders "Unsupported context organization".
+            plugin_isocalendar = "no";
             plugin_isocalendar_duration = "half-year";
 
             ## Languages
