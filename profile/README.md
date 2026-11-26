@@ -12,7 +12,7 @@
 ## Try it from your terminal
 
 ```sh
-ssh qezta@qezta.com   # the Qezta org landing
+ssh hi@qezta.com      # the Qezta org landing
 ssh divit@qezta.com   # Divit's portfolio, as a TUI
 ```
 
