@@ -10,19 +10,18 @@ the right to use the Qezta name or logo.
 - **The Qezta torus logo**, including its animated version at
   <https://qezta.com/qezta.gif>, identifies Qezta.
 
-Both are trademarks of Divit Mittal, used for Qezta. They are not registered
+Both are trademarks of Qezta (OPC) Pvt. Ltd. They are not registered
 trademarks.
 
-## Intended company
+## Ownership
 
-**Qezta (OPC) Pvt. Ltd.** is the name chosen for the company. It is not
-incorporated yet, so it cannot own these marks or any copyright today. Once it
-is incorporated, the marks and the copyright in Qezta's work are intended to
-be assigned to it, and this notice will name the company instead.
+The copyright in Qezta's work and the trademarks above were assigned by
+Divit Mittal to **Qezta (OPC) Pvt. Ltd.** The copyright notices in each
+repository name the company.
 
 ## Copyright
 
-© 2025–2026 Divit Mittal. All rights reserved.
+© 2025–2026 Qezta (OPC) Pvt. Ltd. All rights reserved.
 
 The "all rights reserved" line covers the name, the logo and other material
 that is not part of the open source code. It does not narrow the license
