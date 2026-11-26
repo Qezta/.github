@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://qezta.com"><img src="https://qezta.com/qezta.png" alt="Qezta torus logo" width="120" /></a>
+<a href="https://qezta.com"><img src="https://qezta.com/qezta.png" alt="Qezta torus logo" width="120" /><sup>™</sup></a>
 <p>The Qezta torus logo, including its animated version, is a trademark of Qezta.</p>
 <h1>Qezta</h1>
 <p><a href="https://qezta.com">qezta.com</a> is being built as the company and product site. In the meantime this org hosts Divit Mittal's portfolio and a handful of shared sub-products.</p>
